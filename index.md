@@ -19,7 +19,7 @@ I work on the intersection of machine learning and planning, with applications i
 <br /> 
 **News**
 * Research Intern at [Motional](https://motional.com/) on the Machine Learning Planner team.
-* GLAS awarded [Honorable Mention for Best Paper of RA-L 2020](https://www.ieee-ras.org/publications/ra-l/ra-l-paper-awards) (Top %1 of all papers)
+* GLAS awarded [Honorable Mention for Best Paper of RA-L 2020](https://www.ieee-ras.org/publications/ra-l/ra-l-paper-awards) (Top 1% of all papers)
 * I organized the prestigious GALCIT Colloquium Series for 2020-2021.
 <br />
 <br />
