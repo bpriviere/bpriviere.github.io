@@ -56,3 +56,12 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+tags:
+- Riviere
+- Ben
+- Benjamin
+- Robotics
+- Caltech
+- California Institute of Technology 
+- Stanford 
