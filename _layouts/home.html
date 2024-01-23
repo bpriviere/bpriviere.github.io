@@ -56,6 +56,16 @@
   clear: both;
   vertical-align: middle;
 }
+.left-align {
+  text-align: left;
+  padding-left: 10px;
+}
+.wrapper {
+  line-height: 1.5;
+}
+.halflinespace {
+  line-height: 0.5;
+}
 </style>
 </head>
 
@@ -85,11 +95,11 @@
           I received the B.S. in Mechanical Engineering from Stanford University in 2017, and the M.S. in Aeronautics from Caltech in 2018.
           I work at the intersection of planning, machine learning, and dynamical systems with applications in robotics, space autonomy, and self-driving cars. 
           <br />
+          <div class="halflinespace"> <br \> </div>
+          <em> I am on the 2023/2024 academic job market. </em>
           <br />
-          <strong> I am on the 2023/2024 academic job market. </strong>
-          <br />
+          <div class="halflinespace"> <br \> </div>
           <div style="text-align: center;">
-            <br />
             <a href="https://drive.google.com/file/d/1QzC-xlw-x_ctUowstGXh0aesVunf4Aqs/view?usp=sharing">CV</a>  /  <a href="https://drive.google.com/file/d/19U18NSPh4VXzUjiSprRxDWN0nNm3lUv-/view?usp=drive_link/">Research Statement</a> 
             <br />
             <a href="https://scholar.google.com/citations?user=8A-sI8MAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>  /  <a href="https://www.linkedin.com/in/benjamin-rivi%C3%A8re-442419a2/">LinkedIn</a> / <a href="https://github.com/bpriviere">GitHub</a>  
@@ -102,20 +112,18 @@
 
       <br />
       <strong>Research Statement:</strong>
-      <div>
-        What do smart robots dream of? 
-        My research seeks answers to this question by designing how robots simulate the effect of their actions on the future, and how they use that information to make intelligent decisions. 
-        This is formalized in a search-based framework that 
-          (i) solves a new class of problems in real-time, 
-          (ii) provides explainability and theoretical guarantees, and 
-          (iii) synergizes with deep learning in a <a href="https://en.wikipedia.org/wiki/Dual_process_theory">"dual-process"</a> framework.   
-        <!-- During my PhD, I developed this concept on three examples to achieve new capabilities: 
-        (i) a large-scale game of tag where robots “juke” their opponents, 
-        (ii) a partially-observable setting where a spacecraft with faulty components must simultaneously excite useful observations to diagnoses its state and maintain safety, and 
-        (iii) a dynamical planning problem where a quadrotor selectively traverses an arena of benign and dangerous wind gusts to visit a collection of targets. 
-        All of these algorithms run in real-time and, rather than prescribing a particular solution, rely on the robot's ability to explore and execute intelligent behavior.  -->
-        My vision is to enable robot decision-making to explore and execute intelligent behavior on-the-fly, rather than relying on human intervention, specific pretraining, or prescriptive solutions.
-      </div>
+        <div class="row">
+          <div class="left-align">
+            <div class="halflinespace"> <br \> </div>
+            What do smart robots dream of? 
+            My research seeks answers to this question by designing how robots simulate the effect of their actions on the future, and how they use that information to make intelligent decisions. 
+            This is formalized in a search-based framework that 
+              (i) solves a new class of problems in real-time (e.g. non-convex objectives, nonlinear dynamics, partially-observable environments, game-theoretic interactions), 
+              (ii) provides explainability and theoretical guarantees (e.g. stability, safety, adaptation, optimality), and 
+              (iii) synergizes with deep learning in a "dual-process" combination (e.g. AlphaZero, thought and memory).   
+            My vision is to develop robot decision-making to explore and execute intelligent behavior on-the-fly, rather than relying on human intervention, specific pretraining, or prescriptive solutions.
+          </div>
+        </div>
 
       <br />
       <strong>News:</strong>
@@ -139,7 +147,7 @@
           <div class="bigcolumn"> 
             <strong>Spectral Expansion Tree Search. </strong>
             <em><strong>B. Riviere*</strong>, J. Lathrop*, S-J. Chung.</em>
-            Uses descriptive features from dynamical systems theory to simplify reasoning at a high level of generality in the physical world, enabling real-time robot autonomy for an important new class of problems.
+            Uses descriptive features from dynamical systems theory to simplify reasoning at a high level of generality in the physical world, enabling real-time decision-making for dynamical robots.
             In review at Science Robotics, please contact me if you are interested in a preprint.
           </div>
         </div> 
